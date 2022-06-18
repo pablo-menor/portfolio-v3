@@ -1,5 +1,5 @@
 <template>
-  <section class="flex flex-col items-center pt-20 h-screen">
+  <section class="flex flex-col items-center pt-20 h-screen min-h-[700px]">
     <div class="avatar online placeholder animate__animated animate__rotateIn">
       <div class="bg-neutral-focus text-neutral-content rounded-full w-24">
         <span class="text-3xl">PM</span>
@@ -8,7 +8,7 @@
 
     <div class="flex flex-col mt-9 word-effect text-center">
       <span
-        class="animate__animated animate__fadeInRight"
+        class="first"
         style="
           --content: 'Full-Stack';
           --startcolor: #d39b02;
@@ -18,7 +18,7 @@
       >
       <!-- <span style='--content: "Developer";  --startcolor: #691dec;  --endcolor: #a94cf9;'>Developer</span> -->
       <span
-        class="animate__animated animate__fadeInLeft"
+        class="second"
         style="
           --content: 'Developer';
           --startcolor: #797979;
@@ -28,7 +28,7 @@
       >
     </div>
 
-    <div class="mockup-code mt-28 animate__animated animate__jackInTheBox">
+    <div class="mockup-code mt-28 ">
       <pre data-prefix="$"><code>npm install pablo-menor</code></pre>
       <pre
         data-prefix=">"

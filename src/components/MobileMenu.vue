@@ -17,12 +17,9 @@ export default {
 
 <template>
   <div class="mobile-menu-container">
-    <label
-      class="btn btn-circle swap swap-rotate mx-2 my-2"
-      id="hamburguer"
-    >
+    <label class="btn btn-circle swap swap-rotate mx-2 my-2" id="hamburguer">
       <!-- this hidden checkbox controls the state -->
-      <input type="checkbox" @click="toggleMenu()"/>
+      <input type="checkbox" @click="toggleMenu()" />
 
       <!-- hamburger icon -->
       <svg
@@ -50,11 +47,11 @@ export default {
         />
       </svg>
     </label>
-    <ul v-show="isOpen" class="menu bg-base-100 rounded-box menu-mobile ">
+    <ul v-show="isOpen" class="menu bg-base-100 rounded-box menu-mobile">
       <li class="mt-20">
         <a class="hover:bg-[#6419e6]">
           <div class="svg-container">
-            <svg
+            <!-- <svg
               xmlns="http://www.w3.org/2000/svg"
               class="h-5 w-5"
               fill="none"
@@ -67,15 +64,16 @@ export default {
                 stroke-width="2"
                 d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
               />
-            </svg>
+            </svg> -->
+            [0]
           </div>
           Home
         </a>
       </li>
       <li>
-        <a pl-0 class="hover:bg-[#6419e6]">
+        <a href="#skills" pl-0 class="hover:bg-[#6419e6]">
           <div class="svg-container">
-            <svg
+            <!-- <svg
               width="20"
               height="13"
               viewBox="0 0 30 20"
@@ -86,16 +84,17 @@ export default {
                 d="M30 10L23 17L21.59 15.59L27.17 10L21.59 4.41L23 3L30 10ZM0 10L7 3L8.41 4.41L2.83 10L8.41 15.59L7 17L0 10ZM11.42 19.484L16.64 0L18.572 0.517L13.352 20L11.42 19.484Z"
                 fill="#bbbbbb"
               />
-            </svg>
+            </svg> -->
+            [1]
           </div>
 
-          Skills
+          Technologies
         </a>
       </li>
       <li>
         <a pl-0 class="hover:bg-[#6419e6]">
           <div class="svg-container">
-            <svg
+            <!-- <svg
               width="20"
               height="13"
               viewBox="0 0 30 20"
@@ -106,10 +105,11 @@ export default {
                 d="M30 10L23 17L21.59 15.59L27.17 10L21.59 4.41L23 3L30 10ZM0 10L7 3L8.41 4.41L2.83 10L8.41 15.59L7 17L0 10ZM11.42 19.484L16.64 0L18.572 0.517L13.352 20L11.42 19.484Z"
                 fill="#bbbbbb"
               />
-            </svg>
+            </svg> -->
+            [2]
           </div>
 
-          Work
+          Portfolio
         </a>
       </li>
       <li>
@@ -136,26 +136,26 @@ export default {
 </template>
 
 <style scoped>
-.mobile-menu-container{
-    background-color: aquamarine;
-    /* width:70px */
+.mobile-menu-container {
+  background-color: aquamarine;
+  /* width:70px */
 }
 #hamburguer,
 .menu-mobile {
-    position: fixed;
-    right: 0;
-    z-index: 12;
+  position: fixed;
+  right: 0;
+  z-index: 12;
 }
 
 .menu-mobile {
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-    width: 100vw;
-    z-index: 11;
-    position: fixed;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  width: 100vw;
+  z-index: 11;
+  position: fixed;
 }
 .svg-container {
-    width: 30px;
+  width: 30px;
+  font-family: "JetBrains Mono", monospace;
 }
-
 </style>

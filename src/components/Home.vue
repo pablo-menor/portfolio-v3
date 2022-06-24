@@ -1,5 +1,5 @@
 <template>
-  <section class="flex flex-col items-center pt-20 h-screen min-h-[700px]">
+  <section class="flex flex-col items-center pt-20 h-screen min-h-[700px]" id="home">
     <div class="avatar online placeholder animate__animated animate__rotateIn">
       <div class="bg-neutral-focus text-neutral-content rounded-full w-24">
         <span class="text-3xl">PM</span>

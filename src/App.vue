@@ -3,6 +3,7 @@
     <mobile-menu :isOpen="isOpen" @click="toggleMenu()"></mobile-menu>
     <home></home>
     <skills></skills>
+    <portfolio></portfolio>
   </div>
 </template>
 
@@ -11,6 +12,7 @@
 import MobileMenu from "./components/MobileMenu.vue";
 import Home from "./components/Home.vue";
 import Skills from "./components/Skills.vue";
+import Portfolio from "./components/Portfolio.vue";
 
 export default {
   name: "App",
@@ -29,6 +31,7 @@ export default {
     MobileMenu,
     Home,
     Skills,
+    Portfolio,
   },
 };
 </script>
@@ -61,7 +64,7 @@ body {
   /* min-width: 352px; */
   /* max-width: 400px; */
   width: 300px;
-  color: #b6b6b6
+  color: #cdcaca
 }
 .section-title-span {
   font-size: 1rem;

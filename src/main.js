@@ -38,7 +38,7 @@ ScrollReveal().reveal(".section-title", {
     distance: "50px",
     duration: 2500,
     origin: "left",
-    delay: 500
+    delay: 350
 });
 
 // Skills
@@ -60,19 +60,21 @@ ScrollReveal().reveal(".front-tech, .back-tech, .tools-tech", {
     distance: "30px",
     duration: 2000,
     origin: "top",
-    delay: 400
+    delay: 350
 });
-ScrollReveal().reveal(".svg-front", {
+ScrollReveal().reveal(".svg-front, .front-list", {
     reset: false,
     distance: "30px",
     duration: 2000,
     origin: "top",
-    delay: 400
+    delay: 350
 });
-ScrollReveal().reveal(".front-list", {
+ScrollReveal().reveal(".single-project", {
     reset: false,
     distance: "30px",
     duration: 2000,
     origin: "top",
-    delay: 400
+    delay: 350
+
 });
+

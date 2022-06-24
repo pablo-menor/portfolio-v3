@@ -49,7 +49,7 @@ export default {
     </label>
     <ul v-show="isOpen" class="menu bg-base-100 rounded-box menu-mobile">
       <li class="mt-20">
-        <a class="hover:bg-[#6419e6]">
+        <a class="hover:bg-[#6419e6]" href="#home">
           <div class="svg-container">
             <!-- <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -88,11 +88,11 @@ export default {
             [1]
           </div>
 
-          Technologies
+          Tech
         </a>
       </li>
       <li>
-        <a pl-0 class="hover:bg-[#6419e6]">
+        <a pl-0 class="hover:bg-[#6419e6]" href="#portfolio">
           <div class="svg-container">
             <!-- <svg
               width="20"

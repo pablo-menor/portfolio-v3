@@ -1,7 +1,7 @@
 <template>
   <section class="skills-container" id="skills">
     <h2 class="section-title">
-      <span class="section-title-span">[1].</span> Technologies
+      <span class="section-title-span">[1].</span> Tech I use
     </h2>
     <div class="tech-container">
       <article class="front-tech">

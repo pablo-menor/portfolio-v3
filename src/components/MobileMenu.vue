@@ -11,6 +11,9 @@ export default {
     toggleMenu() {
       this.$emit("click");
     },
+    switchIcon() {
+      this.$refs.icon.click()
+    }
   },
 };
 </script>
@@ -19,7 +22,7 @@ export default {
   <div class="mobile-menu-container">
     <label class="btn btn-circle swap swap-rotate mx-2 my-2" id="hamburguer">
       <!-- this hidden checkbox controls the state -->
-      <input type="checkbox" @click="toggleMenu()" />
+      <input ref="icon" type="checkbox" @click="toggleMenu()"/>
 
       <!-- hamburger icon -->
       <svg
@@ -47,7 +50,7 @@ export default {
         />
       </svg>
     </label>
-    <ul v-show="isOpen" class="menu bg-base-100 rounded-box menu-mobile">
+    <ul v-show="isOpen" class="menu bg-base-100 rounded-box menu-mobile" @click="switchIcon()">
       <li class="mt-20">
         <a class="hover:bg-[#6419e6]" href="#home">
           <div class="svg-container">

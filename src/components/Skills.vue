@@ -49,9 +49,9 @@
           <li>JavaScript (ES6+)</li>
           <li>TypeScript</li>
           <li>Vue</li>
+          <li>React</li>
           <li>Angular</li>
           <li>Tailwind</li>
-          <li>SASS</li>
         </ul>
       </article>
       <article class="back-tech">
@@ -80,10 +80,10 @@
         </ul>
       </article>
       <article class="tools-tech">
-        <h3 class="tools-title">TOOLS</h3>
+        <h3 class="tools-title">OTHER</h3>
         <div class="svg-front">
           <svg
-          class="m-auto svg-tech"
+            class="m-auto svg-tech"
             width="65"
             height="165"
             viewBox="0 0 120 165"
@@ -97,7 +97,7 @@
           </svg>
         </div>
         <ul class="front-list">
-          <li>Github</li>
+          <li>git</li>
           <li>npm</li>
           <li>Postman</li>
           <li>Vercel</li>
@@ -146,7 +146,8 @@ export default {
   position: relative;
 }
 
-.front-tech, .back-tech {
+.front-tech,
+.back-tech {
   border-bottom: 1px solid #505050;
   padding-bottom: 2rem;
 }

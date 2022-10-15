@@ -13,6 +13,8 @@
         title="Google Keep Clone"
         desc="A simple app I built in order to learn React and Firebase."
         tech="React, Firebase, Vite"
+        url="https://react-firestore.netlify.app/"
+        githubUrl="https://github.com/pablo-menor/google-keep-react-firebase"
       ></single-project>
       <single-project
         title="Rick & Morty WebApp"

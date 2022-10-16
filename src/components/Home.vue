@@ -13,6 +13,7 @@
           --content: 'Full-Stack';
           --startcolor: #d39b02;
           --endcolor: #c903c9;
+          line-height: 1;
         "
         >Full-Stack</span
       >

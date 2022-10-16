@@ -13,6 +13,7 @@ import MobileMenu from "./components/MobileMenu.vue";
 import Home from "./components/Home.vue";
 import Skills from "./components/Skills.vue";
 import Portfolio from "./components/Portfolio.vue";
+import { scrollConfig  } from "./scroll-reveal/scroll.config.js"
 
 export default {
   name: "App",
@@ -21,7 +22,9 @@ export default {
       isOpen: false,
     };
   },
-  
+  mounted() {
+    scrollConfig()
+  },
   methods: {
     toggleMenu() {
       this.isOpen = !this.isOpen;
@@ -64,7 +67,7 @@ body {
   /* min-width: 352px; */
   /* max-width: 400px; */
   width: 300px;
-  color: #cdcaca
+  color: #cdcaca;
 }
 .section-title-span {
   font-size: 1rem;

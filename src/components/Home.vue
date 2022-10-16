@@ -51,6 +51,7 @@ export default {
   font-size: 4rem;
   line-height: 1;
   color: transparent;
+  height: 160px;
 }
 
 .word-effect span::before {

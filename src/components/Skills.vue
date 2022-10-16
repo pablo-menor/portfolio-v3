@@ -51,7 +51,7 @@
           <li>Vue</li>
           <li>React</li>
           <li>Angular</li>
-          <li>Tailwind</li>
+          <li>Material UI</li>
         </ul>
       </article>
       <article class="back-tech">

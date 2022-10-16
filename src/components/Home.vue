@@ -13,7 +13,6 @@
           --content: 'Full-Stack';
           --startcolor: #d39b02;
           --endcolor: #c903c9;
-          <!-- line-height: 95px; -->
         "
         >Full-Stack</span
       >
@@ -50,7 +49,7 @@ export default {
 .word-effect span {
   position: relative;
   font-size: 4rem;
-  /* line-height: normal; */
+  line-height: 1;
   color: transparent;
 }
 
